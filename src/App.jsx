@@ -97,9 +97,9 @@ export default function App() {
                 <h1 className="text-primary" style={{textAlign: 'center'}}><b>My Skills</b></h1>
                 <div className="portfolio_container">
 
-                    <ProjectBubble skill={'Web Development'} />
-                    <ProjectBubble skill={'Python,AI && ML'}/>
-                    <ProjectBubble skill={'CyberSecurity'}/>
+                    <ProjectBubble skill={'Fullstack Development'} />
+                    <ProjectBubble skill={'AI && ML Guru'}/>
+                    <ProjectBubble skill={'Network Management'}/>
                 </div>
 
                 <h1 className="text-primary" style={{textAlign: 'center'}}><b>My Portfolio</b></h1>
