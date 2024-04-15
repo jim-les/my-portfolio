@@ -10,7 +10,6 @@ import { Twitter } from '@mui/icons-material';
 import { WhatsApp } from '@mui/icons-material';
 import { AddIcCallSharp } from '@mui/icons-material';
 
-import BubbleComponent from './components/BubbleComponent';
 import ProjectBubble from './components/ProjectBubble';
 import ActionButton from './components/ActionButton';
 import ThankYouModal from './components/ThankYouModal';
