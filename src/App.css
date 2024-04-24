@@ -84,6 +84,10 @@
     animation: 5s roll linear; 
 }
 
+.image_cont img:hover{
+    box-shadow: 0px 0px 15px 15px #0c78d0;
+}
+
 .portfolio{
     padding: 30px 10%;
 }

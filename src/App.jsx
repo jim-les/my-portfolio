@@ -13,6 +13,8 @@ import { AddIcCallSharp } from '@mui/icons-material';
 import ProjectBubble from './components/ProjectBubble';
 import ActionButton from './components/ActionButton';
 import ThankYouModal from './components/ThankYouModal';
+import Cube from './components/Cube';
+
 export default function App() {
     const [mode, ismode] = useState('');
 
@@ -103,6 +105,16 @@ export default function App() {
                 </div>
 
                 <h1 className="text-primary" style={{textAlign: 'center'}}><b>My Portfolio</b></h1>
+                <div>
+                    <h2 style={{textAlign: 'center', fontWeight: "400"}}>
+                    Welcome to my portfolio showcasing my journey as a full stack developer! Below, you'll find a curated selection of projects that demonstrate my expertise in building dynamic and responsive web applications. From crafting sleek front-end interfaces to architecting robust back-end systems, each project reflects my passion for creating seamless digital experiences. Explore these projects to gain insight into my skills, creativity, and dedication to delivering high-quality solutions
+                    </h2>
+                    <div style={{display: 'flex', gap: '30px', justifyContent: 'space-around'}}>
+                        <Cube />
+                        <Cube />
+                        <Cube />
+                    </div>
+                </div>
 
             </div>
 
